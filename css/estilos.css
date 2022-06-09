@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-inner{
+    max-height: 38rem;
+}
+.header{
+  background-color: black;
+}
+
+
+@media(max-width: 576px){
+  .muñeco-bakugo{
+  flex-wrap: wrap;
+    justify-content: center !important;
+}
+.llaverojjk{
+  flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.mochilas{
+  flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.zenitsu{
+  flex-wrap: wrap;
+    justify-content: center !important;
+}
+}
+

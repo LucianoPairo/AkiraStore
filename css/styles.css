@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.titulo-akira {
+  color: black; }
+
+.titulo-ultimas-novedades {
+  background-color: gray; }
+
+.titulo-ofertas-abril {
+  background-color: gray; }
+
+.header {
+  background-color: black; }
+  .header .nav {
+    background-color: red; }
+  .header .container-fluid {
+    background-color: black; }
+  .header .container-akiraStore {
+    background-color: white;
+    padding: 5px 5px 5px 5px; }
+
+ul {
+  background-color: black; }
+  ul li {
+    background-color: black; }
+  ul a {
+    color: white !important; }
+
+.btn {
+  background-color: white; }
+
+.footer {
+  background-color: black;
+  color: white; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.navbar-toggler {
+  background-color: white;
+  color: white !important; }
+  .navbar-toggler .navbar-toggler-icon {
+    color: gray !important; }
+
+.carousel-inner {
+  max-height: 38rem; }
+
+@media (max-width: 576px) {
+  .muñeco-bakugo {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .llaverojjk {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .mochilas {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .zenitsu {
+    flex-wrap: wrap;
+    justify-content: center !important; } }
+
+.img-facebook {
+  background-color: #3a5795;
+  width: 40px;
+  height: 40px; }
+
+.img-instagram {
+  background-color: #990088;
+  width: 40px;
+  height: 40px; }

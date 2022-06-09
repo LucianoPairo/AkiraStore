@@ -1,0 +1,61 @@
+@import "colors";
+@import "titulos";
+@import "nav";
+@import "contenidoIndex";
+@import "footer";
+@import "mixins";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  body{
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-toggler{
+    background-color: $secundary;
+    color: $secundary !important;
+
+    .navbar-toggler-icon{
+      color:$tertiary !important;
+    }
+  }
+  
+  .carousel-inner{
+      max-height: 38rem;
+  }
+  
+  @media(max-width: 576px){
+    .muñeco-bakugo{
+    @include flex-wrap;
+  }
+  .llaverojjk{
+    flex-wrap: wrap;
+      justify-content: center !important;
+  }
+  
+  .mochilas{
+    flex-wrap: wrap;
+      justify-content: center !important;
+  }
+  
+  .zenitsu{
+    flex-wrap: wrap;
+      justify-content: center !important;
+  }
+  }
+
+  $coloresRedes:(facebook:#3a5795,instagram:#990088);
+  @each $red,
+  $color in $coloresRedes{
+    .img-#{$red}{
+      background-color: $color;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  

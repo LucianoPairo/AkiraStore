@@ -1,0 +1,30 @@
+.header{
+    background-color: $primary;
+
+    .nav{
+      background-color: red;
+    }
+    .container-fluid{
+      background-color: $primary;
+    }
+    .container-akiraStore{
+      background-color: $secundary;
+      padding: 5px 5px 5px 5px;
+    }
+}
+
+ul{
+  background-color: $primary;
+
+  li{
+    background-color: $primary;
+  }
+  
+  a{
+    color:$secundary !important;
+  }
+}
+
+.btn{
+  background-color: $secundary;
+}
