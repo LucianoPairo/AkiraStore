@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="anime,japon,akira,tienda de anime,shingeki no kyojin,kimetsu no yaiba,jujutsu kaisen,otaku,cosplay">
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -53,19 +54,25 @@
     </header>
     <section class="envios">
         <h1 class="titulo-envios"> ENVIOS </h1>
-        <div class="infoEnvio">
-            <article class="infoAutomovil">
-                <img src="../img/baseline_airport_shuttle_black_24dp.png" alt="automovil">
-                    <p for="autoContacto" class="textoEnvio"> Envio a todo el pais
+        <div class="info-envio">
+            <article class="info-automovil">
+                <div class="container-img-automovil">
+                <img src="../img/baseline_airport_shuttle_black_24dp.png" class="img-automovil" alt="automovil">
+                </div>    
+                <p for="autoContacto" class="textoEnvio"> Envio a todo el pais
             </article>
 
-            <article class="infoTarjetaDeCredito">
-                <img src="../img/baseline_credit_card_black_24dp.png" alt="tarjetaDeCredito">
-                <p for="tarjetaContacto" class="textoEnvio"> Aceptamos todas las tarjetas de credito y debito
+            <article class="info-tarjeta-credito">
+                <div clas="container-img-tarjeta-credito">
+                <img src="../img/baseline_credit_card_black_24dp.png" class="img-tarjeta-credito" alt="tarjetaDeCredito">
+                </div>
+                <p for="tarjetaContacto" class="textoEnvio">Todas las tarjetas de credito y debito
             </article>
 
-            <article class="infoSeguridad">
-                <img src="../img/baseline_lock_black_24dp.png" alt="candado">
+            <article class="info-seguridad">
+                <div class="container-img-candado">
+                <img src="../img/baseline_lock_black_24dp.png" class="img-candado" alt="candado">
+                </div>
                 <p for="seguridadContacto" class="textoEnvio"> Compras 100% seguras
             </article>
         </div>
@@ -73,26 +80,31 @@
         
     
     <section class="retiros"> 
-        <h1 class="titulo-retiros">RETIROS</h1>
-        <article class="retiro-mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3304.2176646915996!2d-67.49047155180828!3d-45.86120946223239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1650767103587!5m2!1ses-419!2sar" class="mapa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </article>
+        <div class="w-50 m-auto text-center container-retiros">
+        <h1 class="titulo-retiros  mb-5 fs-2">RETIROS</h1>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3304.2176646915996!2d-67.49047155180828!3d-45.86120946223239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1650767103587!5m2!1ses-419!2sar" class="mapa"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
 
 
         
         <article class="ubicacion">   
-        <p class="textoUbicacion"> 
+        <p class="textoUbicacion fs-6"> 
             RETIROS (¿Como llegar?)       
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, incidunt vel ipsum, ut molestias minima, harum minus dignissimos ab hic a quasi nobis dolorem dolor earum numquam. Ex, soluta itaque?
+            Nos ubicamos cerca de Ele Multiespacio, entre Rivadavia y Saavedra, nos encontrara con un cartel negro llamado "Akira Store"
                 </p>
         </article>
+        </div>
     </section>
-    <footer class="footer">
+    <footer class="footer w-100  d-flex  align-items-center justify-content-around flex-wrap">
         <h3> Metodos de pago</h3>
         <h3> LULU STORE</h3>
         <h3> Redes sociales</h3>
+        <div class="redes-sociales">
+            <img src="../img/instagram.png" alt="logo-instagram" class="img-instagram">
+            <img src="../img/facebook.png" alt="logo-facebook" class="img-facebook">
+        </div>
     </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

@@ -1,0 +1,52 @@
+/* Imagenes de productos.html*/
+.img-manga{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Imagenes contacto.html*/ 
+.img-remera-bnh{
+    width: 150px;
+    height: 150px;
+}
+
+.img-remera-sasuke{
+    width: 150px;
+    height: 150px;
+}
+
+/* Imagenes nosotros.html*/
+.container-img-equipo{
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+        .img-equipo{
+            width: 100%;
+            height: auto;
+        }
+}
+ /*Imagenes enviosyretiros.html*/
+
+ .container-retiros{
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+        .mapa{
+            width: 100%;
+            height: auto;
+        }
+}
+
+.container-img-tarjeta-credito{
+    display: flex;
+    justify-content: center;
+}
+.container-img-automovil{
+    display: flex;
+    justify-content: center;
+}
+.container-img-candado{
+    display: flex;
+    justify-content: center;
+}

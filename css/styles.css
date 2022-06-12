@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* index.html*/
 .titulo-akira {
   color: black; }
 
@@ -8,6 +9,18 @@
 .titulo-ofertas-abril {
   background-color: gray; }
 
+/* productos-html*/
+.titulo-productos {
+  text-align: center; }
+
+/* contacto.html*/
+.titulo-contacto {
+  text-align: center; }
+
+.texto-titulo-contacto {
+  text-align: center; }
+
+/* nosotros.html*/
 .header {
   background-color: black; }
   .header .nav {
@@ -32,11 +45,56 @@ ul {
   background-color: black;
   color: white; }
 
+/* Imagenes de productos.html*/
+.img-manga {
+  width: 150px;
+  height: 150px; }
+
+/* Imagenes contacto.html*/
+.img-remera-bnh {
+  width: 150px;
+  height: 150px; }
+
+.img-remera-sasuke {
+  width: 150px;
+  height: 150px; }
+
+/* Imagenes nosotros.html*/
+.container-img-equipo {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; }
+  .container-img-equipo .img-equipo {
+    width: 100%;
+    height: auto; }
+
+/*Imagenes enviosyretiros.html*/
+.container-retiros {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; }
+  .container-retiros .mapa {
+    width: 100%;
+    height: auto; }
+
+.container-img-tarjeta-credito {
+  display: flex;
+  justify-content: center; }
+
+.container-img-automovil {
+  display: flex;
+  justify-content: center; }
+
+.container-img-candado {
+  display: flex;
+  justify-content: center; }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
+/* Estilo index.html, cambios generales del nav y footer*/
 body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -49,6 +107,17 @@ body {
 .carousel-inner {
   max-height: 38rem; }
 
+.img-facebook {
+  background-color: #3a5795;
+  width: 40px;
+  height: 40px; }
+
+.img-instagram {
+  background-color: #990088;
+  width: 40px;
+  height: 40px; }
+
+/* Media Queries*/
 @media (max-width: 576px) {
   .muñeco-bakugo {
     flex-wrap: wrap;
@@ -63,12 +132,62 @@ body {
     flex-wrap: wrap;
     justify-content: center !important; } }
 
-.img-facebook {
-  background-color: #3a5795;
-  width: 40px;
-  height: 40px; }
+@media (min-width: 576px) {
+  .img-remera-bnh {
+    width: 250px;
+    height: 250px; }
+  .img-remera-sasuke {
+    width: 250px;
+    height: 250px; }
+  .container-productos-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center; }
+  .container-productos-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center; }
+  .img-manga {
+    width: 250px;
+    height: 250px; } }
 
-.img-instagram {
-  background-color: #990088;
-  width: 40px;
-  height: 40px; }
+.container-productos-uno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.container-productos-dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/* Estilo de contacto.html */
+.container-img-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; }
+
+.container-formulario {
+  width: 250px;
+  height: 250px; }
+
+/*estilo enviosyretiros.html*/
+.info-envio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.info-tarjeta-credito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .info-tarjeta-credito .img-tarjeta-credito {
+    justify-content: center;
+    align-items: center; }

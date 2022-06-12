@@ -1,16 +1,16 @@
 @import "colors";
 @import "titulos";
 @import "nav";
-@import "contenidoIndex";
 @import "footer";
 @import "mixins";
+@import "img";
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Estilo index.html, cambios generales del nav y footer*/
   body{
       font-family: 'Montserrat', sans-serif;
   }
@@ -27,6 +27,16 @@
   .carousel-inner{
       max-height: 38rem;
   }
+  $coloresRedes:(facebook:#3a5795,instagram:#990088);
+  @each $red,
+  $color in $coloresRedes{
+    .img-#{$red}{
+      background-color: $color;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  /* Media Queries*/
   
   @media(max-width: 576px){
     .muñeco-bakugo{
@@ -47,15 +57,80 @@
       justify-content: center !important;
   }
   }
-
-  $coloresRedes:(facebook:#3a5795,instagram:#990088);
-  @each $red,
-  $color in $coloresRedes{
-    .img-#{$red}{
-      background-color: $color;
-      width: 40px;
-      height: 40px;
-    }
+  @media(min-width:576px){
+    .img-remera-bnh{
+      width: 250px;
+      height: 250px;
   }
+  
+  .img-remera-sasuke{
+      width: 250px;
+      height: 250px;
+  }
+
+  .container-productos-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .container-productos-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .img-manga{
+    width: 250px;
+    height: 250px;
+  }
+  }
+
+  .container-productos-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-productos-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Estilo de contacto.html */
+  .container-img-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .container-formulario{
+    width: 250px;
+    height: 250px;
+  }
+
+  /*estilo enviosyretiros.html*/
+  .info-envio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-tarjeta-credito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .img-tarjeta-credito{
+      justify-content: center;
+      align-items: center;
+  }
+  }
+  
+
   
   
